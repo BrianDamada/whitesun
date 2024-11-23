@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.banner{
+    background-image: url('/backgrounds/background.webp');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media screen and (max-width: 768px){
+    .banner{
+        background-image: url('/backgrounds/background-cell.webp');
+        width: 100vw;
+        height: 100vh;
+    }
+}
