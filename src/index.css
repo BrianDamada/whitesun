@@ -10,6 +10,8 @@
 
 :root{
     /* Tema Padrão */
+    --navbar-z-index: 100;
+    --servicecard-z-index: 1;
     --bg-color: #EBEFF2;
     --text-color: #101A26;
     --destaque: #0036d6;

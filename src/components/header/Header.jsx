@@ -28,11 +28,12 @@ const Header = ({ headerLinks, handleClick }) => {
 
 
   return (
-    <header className={`w-[100vw] text-themetext flex bg-themebg py-7 transition-all ease-in-out duration-300
+    <header className={`z-40 w-[100vw] text-themetext flex bg-themebg py-7 transition-all ease-in-out duration-300
       ${
         isScrolled ? 'translate-y-0' : '-translate-y-full'
       }
-    `} >
+    `} 
+    >
       <Center className="flex justify-between m-auto items-center">
         <SvgIcon src="/logos/logoFuse.svg" className="w-32" />
         <div className="hidden sm:flex">

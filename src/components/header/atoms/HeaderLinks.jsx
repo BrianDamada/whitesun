@@ -10,7 +10,7 @@ const HeaderLinks = ({ headerLinks }) => {
     <nav >
       <ul className="flex flex-col sm:flex-row gap-3 gap-y-5">
         {headerLinks.map((item) => (
-          <li key={item.index}>
+          <li key={item.t}>
             <a href={item.l} className={
               item.l === location.pathname ? 'text-themedestaque font-black' : ''
             } >{item.t}
