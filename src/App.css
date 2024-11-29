@@ -17,3 +17,9 @@ h3{
 .raw{
     font-family: 'Raleway';
 }
+
+a{
+    color: var(--destaque);
+    font-weight: 800;
+    text-decoration: underline;
+}

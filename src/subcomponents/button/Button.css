@@ -1,0 +1,26 @@
+.my-button{
+    transition: all 1s;
+}
+
+.variant-default{
+    background-color: var(--destaque);
+    color: white;
+}
+
+.variant-default a{
+    color: white;
+}
+
+.variant-border{
+    background-color: transparent;
+    outline: solid 3px var(--destaque);
+    color: var(--destaque);
+}
+
+.variant-default:hover{
+    background-color: var(--destaque2);
+}
+
+.variant-border:hover{
+    background-color: var(--destaque2);
+}

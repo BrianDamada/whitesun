@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import "./App.css";
 import { useTheme } from "./context/ThemeContext";
 import TotalHeader from "./components/header/TotalHeader";
-TotalHeader
+TotalHeader;
 useTheme;
 
 function App() {
@@ -20,17 +20,16 @@ function App() {
     },
   ];
 
-
   // ==============================================================================
   // VAZIO
   // ==============================================================================
 
-
   return (
-    <>
+    <div className="mon">
       <TotalHeader headerLinks={headerLinks} />
+
       <Outlet />
-    </>
+    </div>
   );
 }
 

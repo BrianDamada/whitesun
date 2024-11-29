@@ -13,7 +13,7 @@ const TotalHeader = ({ headerLinks }) => {
   }
 
   return (
-    <header className="fixed">
+    <header className="fixed z-40">
       <div className="absolute">
         <Navbar
           headerLinks={headerLinks}
@@ -21,10 +21,10 @@ const TotalHeader = ({ headerLinks }) => {
           handleClick={handleClick}
         />
       </div>
-      <div className="h-[100vh]">
+      <div className="">
       <div
           className={`w-[100vw] h-[100vh] bg-black absolute top-0 right-0 z-10 
-            ${navbarVisible ? "opacity-80 pointer-events-auto" : "opacity-0 pointer-events-none"} 
+            ${navbarVisible ? "opacity-80 pointer-events-auto" : "opacity-0 pointer-events-none"}
             transition-opacity duration-300`}
 
             onClick={handleClick}

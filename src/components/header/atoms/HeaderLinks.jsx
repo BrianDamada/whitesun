@@ -12,7 +12,7 @@ const HeaderLinks = ({ headerLinks }) => {
         {headerLinks.map((item) => (
           <li key={item.t}>
             <a href={item.l} className={
-              item.l === location.pathname ? 'text-themedestaque font-black' : ''
+              `no-underline	 ${item.l === location.pathname ? 'text-themedestaque font-black' : 'text-themetext'}`
             } >{item.t}
             <div className={
               `

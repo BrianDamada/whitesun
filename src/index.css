@@ -10,15 +10,13 @@
 
 :root{
     /* Tema Padrão */
-    --navbar-z-index: 100;
-    --servicecard-z-index: 1;
     --bg-color: #EBEFF2;
     --text-color: #101A26;
     --destaque: #0036d6;
     --destaque2: #325EE8;
     --solid: #06090D;
     --color1: #3C4C59;
-    --color2: #cbd7e2;
+    --color2: #dbe3eb;
     --close: #d10909;
 }
 
@@ -33,4 +31,8 @@
     --color2: #101A26;
     --close: #ff2323;
 
+}
+
+.mon{
+    font-family: 'Montserrat';
 }
